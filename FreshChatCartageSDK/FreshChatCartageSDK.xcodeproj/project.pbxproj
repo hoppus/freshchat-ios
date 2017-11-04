@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F3B16EB1FAE18F7002C3D3A /* FreshchatSDK in Resources */ = {isa = PBXBuildFile; fileRef = 7F3B16EA1FAE18F7002C3D3A /* FreshchatSDK */; };
 		7FACD68A1FAE1313007B48F7 /* FreshChatCartageSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FACD6881FAE1313007B48F7 /* FreshChatCartageSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7FACD6911FAE1331007B48F7 /* FreshchatSDK in Resources */ = {isa = PBXBuildFile; fileRef = 7FACD6901FAE1331007B48F7 /* FreshchatSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F3B16EA1FAE18F7002C3D3A /* FreshchatSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FreshchatSDK; sourceTree = "<group>"; };
 		7FACD6851FAE1313007B48F7 /* FreshChatCartageSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FreshChatCartageSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FACD6881FAE1313007B48F7 /* FreshChatCartageSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FreshChatCartageSDK.h; sourceTree = "<group>"; };
 		7FACD6891FAE1313007B48F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FACD6901FAE1331007B48F7 /* FreshchatSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = FreshchatSDK; path = ../../FreshchatSDK; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +48,7 @@
 		7FACD6871FAE1313007B48F7 /* FreshChatCartageSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7FACD6901FAE1331007B48F7 /* FreshchatSDK */,
+				7F3B16EA1FAE18F7002C3D3A /* FreshchatSDK */,
 				7FACD6881FAE1313007B48F7 /* FreshChatCartageSDK.h */,
 				7FACD6891FAE1313007B48F7 /* Info.plist */,
 			);
@@ -124,7 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FACD6911FAE1331007B48F7 /* FreshchatSDK in Resources */,
+				7F3B16EB1FAE18F7002C3D3A /* FreshchatSDK in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +297,7 @@
 				7FACD68F1FAE1313007B48F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
